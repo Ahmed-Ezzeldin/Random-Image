@@ -32,11 +32,16 @@ struct ContentView: View {
             VStack{
                 Spacer()
                 if let image = viewModel.image{
-                    image
-                        .resizable()
-                        .foregroundColor(Color.green)
-                        .frame(width: 250, height: 250)
-                        .padding()
+                    ZStack{
+                        image
+                            .resizable()
+                            .foregroundColor(Color.green)
+                            .frame(width: 250, height: 250)
+                            .padding()
+                    }
+                    .frame(width: UIScreen.main.bounds.width / 1.2, height:UIScreen.main.bounds.width / 1.2)
+                    .background(Color.pink)
+                    .cornerRadius(10)
                 } else {
                     Image(systemName: "photo")
                         .resizable()

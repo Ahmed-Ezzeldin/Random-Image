@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80E22EEE28291578004B4FB6 /* randomImg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomImg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E22EEE28291578004B4FB6 /* randmImg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randmImg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E22EF128291578004B4FB6 /* randomImgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomImgApp.swift; sourceTree = "<group>"; };
 		80E22EF328291578004B4FB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80E22EF52829157A004B4FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		80E22EEF28291578004B4FB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80E22EEE28291578004B4FB6 /* randomImg.app */,
+				80E22EEE28291578004B4FB6 /* randmImg.app */,
 				80E22EFE2829157A004B4FB6 /* randomImgTests.xctest */,
 				80E22F082829157A004B4FB6 /* randomImgUITests.xctest */,
 			);
@@ -144,7 +144,7 @@
 			);
 			name = randomImg;
 			productName = randomImg;
-			productReference = 80E22EEE28291578004B4FB6 /* randomImg.app */;
+			productReference = 80E22EEE28291578004B4FB6 /* randmImg.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80E22EFD2829157A004B4FB6 /* randomImgTests */ = {
@@ -432,7 +432,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cloudsecret.randomImg;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = randmImg;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,7 +460,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cloudsecret.randomImg;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = randmImg;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
